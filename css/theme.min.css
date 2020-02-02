@@ -1,0 +1,96 @@
+#wrap{
+    margin:0 auto;
+}
+
+
+#footer{
+    text-align:center;color:#666;font-size:11px;border-top:1px solid #ccc;margin-top:20px;padding-top:20px;
+}
+.aligncenter,div.aligncenter{display:block;margin-left:auto;margin-right:auto}.alignleft{float:left}.alignright{float:right}.wp-caption{background-color:#f3f3f3;border:1px solid #ddd;-khtml-border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;margin:10px;padding-top:4px;text-align:center}.wp-caption img{border:0 none;margin:0;padding:0}.wp-caption p.wp-caption-text{font-size:11px;line-height:17px;margin:0;padding:0 4px 5px}.hide{display:none}li.widget{list-style:none}
+ .custom-logo  {
+            width: 40px;
+            height: 40px;
+            float: left;
+            margin-right: 2%;
+            margin-top: 1px;
+            border: 1px solid  #fff;
+        }
+        #wrap , .jumbotron {
+            padding-left:20px;
+            padding-right: 20px;
+        }
+        .jumbotron {
+            padding-bottom: 2%;
+            margin-bottom: 2%;
+            margin-top:4%;
+            background: linear-gradient(to bottom, #ffffff 0%, #cccccc 90%);
+        }
+        
+        .page-footer {
+            padding-top:2%;
+            padding-bottom: 2%;
+            background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%); 
+            width: 100%;
+  
+        }
+
+.gallery { 
+   width: calc(100% + 30px) ;
+   margin-left:-15px;
+   margin-right: -15px;
+}
+.gallery .gallery-item {
+    float: left;
+    text-align: center;
+    width: calc(17%);
+    margin:15px 1.5% 10px 1.5%;
+}
+.gallery-columns-2 .gallery-item { width: 50%; }
+.gallery-columns-4 .gallery-item { width: 25%; }
+.gallery img {
+	border: 1px solid white;
+	padding: 8px;
+	background: #f2f2f2;
+        width: 100%;
+}
+.gallery img:hover {
+	background: white;
+}
+.gallery-columns-2 .attachment-medium {
+	max-width: 92%;
+	height: auto;
+}
+.gallery-columns-4 .attachment-thumbnail {
+	max-width: 84%;
+	height: auto;
+}
+
+.gallery-columns-5 .attachment-thumbnail {
+	width: 100%;
+	height: auto;
+}
+
+.gallery .gallery-caption {
+	color: #888;
+	font-size: 12px;
+	margin: 0 0 12px;
+}
+.gallery dl, .gallery dt { margin: 0; }
+.gallery br+br { display: none; }
+
+        
+
+@media (min-width:768px){
+    body {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    }
+    #wrap{max-width:1210px;
+    }
+
+     #wrap , .jumbotron {
+            padding-left:5px;
+            padding-right: 5px;
+        }
+    
+}
